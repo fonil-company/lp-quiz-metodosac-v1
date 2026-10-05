@@ -43,7 +43,7 @@ export default function Screen1Name({ answers, updateAnswers, next }: Props) {
           Antes de analisarmos sua empresa, me diga seu nome
         </h2>
         <p className="text-sm" style={{ color: 'var(--color-text-secondary)' }}>
-          Vamos usar essa informação apenas para personalizar sua experiência durante o diagnóstico.
+          O diagnóstico é rápido e leva menos de 2 minutos.
         </p>
       </div>
 

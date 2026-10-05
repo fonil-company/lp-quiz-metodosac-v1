@@ -45,7 +45,7 @@ export default function Screen2OperationType({ answers, updateAnswers, next }: P
     <div className="flex flex-col gap-6 py-8">
       <div className="flex flex-col gap-3">
         <p className="text-sm font-medium" style={{ color: 'var(--color-accent)' }}>
-          Prazer, {answers.firstName}. Agora vamos entender o perfil da sua empresa.
+          Prazer, {answers.firstName}. São só 3 perguntas rápidas.
         </p>
         <h2 className="text-2xl md:text-3xl font-bold leading-tight" style={{ color: 'var(--color-text)' }}>
           Qual dessas opções descreve melhor a sua operação hoje?

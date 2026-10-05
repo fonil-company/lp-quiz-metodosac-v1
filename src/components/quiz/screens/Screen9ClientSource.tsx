@@ -24,9 +24,12 @@ interface Props {
 export default function Screen9ClientSource({ answers, updateAnswers, next }: Props) {
   return (
     <div className="flex flex-col gap-6 py-8">
-      <h2 className="text-2xl md:text-3xl font-bold leading-tight" style={{ color: 'var(--color-text)' }}>
-        Hoje, de onde vêm a maior parte dos novos clientes da sua empresa?
-      </h2>
+      <div className="flex flex-col gap-2">
+        <p className="text-sm font-medium" style={{ color: 'var(--color-accent)' }}>Pergunta 3 de 3</p>
+        <h2 className="text-2xl md:text-3xl font-bold leading-tight" style={{ color: 'var(--color-text)' }}>
+          Hoje, de onde vêm a maior parte dos novos clientes da sua empresa?
+        </h2>
+      </div>
 
       <div className="flex flex-col gap-2.5">
         {OPTIONS.map(opt => (

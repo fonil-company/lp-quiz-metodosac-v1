@@ -22,9 +22,13 @@ interface Props {
 export default function Screen5Revenue({ answers, updateAnswers, next }: Props) {
   return (
     <div className="flex flex-col gap-6 py-8">
-      <h2 className="text-2xl md:text-3xl font-bold leading-tight" style={{ color: 'var(--color-text)' }}>
-        Qual é o faturamento médio mensal da sua empresa?
-      </h2>
+      <div className="flex flex-col gap-2">
+        <p className="text-sm font-medium" style={{ color: 'var(--color-accent)' }}>Pergunta 2 de 3</p>
+        <h2 className="text-2xl md:text-3xl font-bold leading-tight" style={{ color: 'var(--color-text)' }}>
+          Qual é o faturamento médio mensal da sua empresa?
+        </h2>
+        <p className="text-sm" style={{ color: 'var(--color-text-secondary)' }}>Essa informação ajuda a dimensionar o momento da operação.</p>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
         {OPTIONS.map(opt => (
